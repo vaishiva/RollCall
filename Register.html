@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance List</title>
+    <link rel="stylesheet" href="Register.css">
+    <script src="Resiter.js"></script>
+</head>
+<body style="color: black;">
+    <div  class="body1"> </div>
+    <div class="container">
+        <h1>Attendance List</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Phone Number</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody id="attendanceList">
+                <tr>
+                    <td>John Doe</td>
+                    <td>9876543210</td>
+                    <td>
+                        <select onchange="updateStatus(this)">
+                            <option value="">Select</option>
+                            <option value="Present">Present</option>
+                            <option value="Absent">Absent</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>9876543210</td>
+                    <td>
+                        <select onchange="updateStatus(this)">
+                            <option value="">Select</option>
+                            <option value="Present">Present</option>
+                            <option value="Absent">Absent</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Emily Johnson</td>
+                    <td>9876543210</td>
+                    <td>
+                        <select onchange="updateStatus(this)">
+                            <option value="">Select</option>
+                            <option value="Present">Present</option>
+                            <option value="Absent">Absent</option>
+                        </select>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <button onclick="downloadAttendance()" class="btn1">Download Attendance List</button>
+        <button onclick="sendSms()"class="btn2">Send SMS</button>
+    </div>
+    <script src="Register.js"></script>
+</body>
+</html>

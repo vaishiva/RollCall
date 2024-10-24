@@ -1,0 +1,92 @@
+.box{
+    position: absolute;
+    left: 45%;
+    top: 25%;
+    width: 300px;
+    height: 400px;
+    border-radius:10px;
+    border-style: solid;
+    background-color: rgb(190, 190, 255);  
+    background-image: linear-gradient(to right,rgb(155, 155, 249),rgb(218, 230, 242)); 
+}
+body{
+
+    background-color:rgb(173, 173, 247) ;
+    background-image: linear-gradient(to right,rgb(155, 155, 236),white);
+}
+.input1{
+    padding: 5px;
+    padding-left: 5px;
+    position: absolute;
+    top: 150px;
+    left: 20%;
+    border-style: solid;
+    border-radius: 10px;
+}
+.input2{
+    padding: 5px;
+    padding-left: 5px;
+    position: absolute;
+    top: 210px;
+    left: 20%;
+    border-style: solid;
+    border-radius: 10px;
+}
+.forgotpassword{
+text-decoration: none;
+padding: 5px;
+    padding-left: 5px;
+    position: absolute;
+    top: 300px;
+    left: 55%;
+    color: rgb(73, 109, 151);
+}
+.forgotpassword:hover{
+    text-decoration:underline;
+    color: indigo;
+}
+.Remember{
+    display: flex;
+    padding: 5px;
+    padding-left: 5px;
+    position: absolute;
+    top: 279px;
+    left: 7%;
+    color: rgb(73, 109, 151);
+}
+.Remember:hover{
+    color: indigo;
+}
+.Login{
+    padding: 5px;
+    padding-left: 5px;
+    position: absolute;
+    top: 350px;
+}
+button{
+    width: 290px;
+    height: 30px;
+    color: aliceblue;
+    background-color: indigo;
+}
+button:hover{
+    background-color: rgb(100, 46, 138);
+}
+.user{
+    position: absolute;
+    top: 154px;
+    left: 32px;
+}
+.lock{
+    position: absolute;
+    top: 215px;
+    left: 32px;
+}
+.contact, fa fa-user-circle{
+    position: fixed;
+   font-size: 1000%;
+   position: absolute;
+   left: 50%;
+   top: 110px;
+   color: indigo;
+}

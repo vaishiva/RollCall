@@ -1,0 +1,78 @@
+.first {
+    text-align: center; 
+      background-color: black;
+      position:relative;
+      bottom: 20px;
+      color: white;
+      margin: -8px;
+      height: 40px;
+}
+h3{
+    position: relative;
+    top: 13px;
+}
+.call{
+    font-size: 35px;
+}
+.rollcall, ul,li{
+    display: flex;
+    text-decoration: none;
+     position: relative ;
+     bottom: 23px;
+     padding-left: 190px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: orange;
+}
+.center,.h11{
+    text-align: center;
+    position: relative;
+    top: 30px;
+    font-size: 60px;
+}
+.h111{
+    font-size: 70px;
+}
+button{
+    width: 200px;
+    height: 50px;
+    display: inline;
+   position: relative;
+   top: 50px;
+   border-radius: 10px;
+   background-color: black;
+   color: white;
+}
+.btn1{
+    position: relative;
+    left: 520px;
+}
+.btn2{
+    position: relative;
+    left: 620px;
+}
+button:hover{
+    color: white;
+    background-color: rgb(75, 74, 74);
+    border-color: white;
+}
+.box{
+    width: 400px;
+    height: 200px;
+    position: relative;
+    top: 400px;
+    left: 600px;
+}
+h2{
+    text-align: center;
+    padding-left: 10px;
+}
+.btn3{
+    position: relative;
+    left: 90px;
+    border-radius: 20px;
+}

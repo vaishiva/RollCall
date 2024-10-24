@@ -1,0 +1,119 @@
+body{
+    background-image: linear-gradient(to right, rgb(94, 171, 238),white);
+}
+.box{
+    position: fixed;
+    width: 400px;
+    height: 500px;
+    border: 1px;
+    border-radius: 10px;
+    border-style: solid;
+    position: absolute;
+    left: 35%;
+    top: 20%;
+    background-color: aliceblue;
+}
+.icon {
+    position: absolute;
+    left: 80%;
+    top: 35px;
+}
+i{
+    margin: 5px;
+}
+.icon i:hover{
+   color: rgb(184, 181, 181); 
+} 
+.h11{
+    
+    position: absolute;
+    left: 35px;
+}
+.input1{
+    position: absolute;
+    top: 30%;
+    left: 30px;
+    border-style: solid;
+    height: 25px;
+    width: 335px;
+    border-radius: 10px;
+}
+.input1:hover{
+    background-color: rgb(236, 233, 233);
+}
+.input2:hover{
+    background-color: rgb(236, 233, 233);
+}
+.input3:hover{
+    background-color: rgb(236, 233, 233);
+}
+.input2{
+    position: absolute;
+    top: 48%;
+    left: 30px;
+    border-style: solid;
+    height: 25px;
+    width: 335px;
+    border-radius: 10px;
+}
+.input3{
+    position: absolute;
+    top: 68%;
+    left: 30px;
+    border-style: solid;
+    height: 25px;
+    width: 335px;
+    border-radius: 10px;
+}
+.h22{
+    position: absolute;
+    top: 21%;
+    left: 30px;
+    font-size: 20px;
+}
+.h222{
+    position: absolute;
+    top: 39%;
+    left: 30px;
+    font-size: 20px;
+}
+.h2222{
+    position: absolute;
+    top: 59%;
+    left: 30px;
+    font-size: 20px;
+}
+.Signup{
+    position: absolute;
+    top: 82%;
+    width: 86%;
+    margin-left: 30px;
+    height: 40px;
+}
+button{
+    color: white;
+    background-color: rgb(249, 1, 183);
+    border-radius: 10px;
+    
+}
+button:hover{
+    color: black;
+    background-color: rgb(241, 126, 210);
+}
+.or{
+    position: absolute;
+    top: 87%;
+    left: 45%;
+}
+.Already{
+    position: absolute;
+    top: 91.5%;
+    left: 34%;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}

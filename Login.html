@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="Login.js"></script>
+    <link rel="stylesheet" href="Login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <div class="box">
+        <table>
+           <input type="text" class="input1" id="input1" placeholder="Username">
+           <div class="user">
+           <i class="fa fa-envelope-open" aria-hidden="true"></i>
+        </div>
+            <input type="password" class="input2" id="input2" placeholder="Password"> 
+            <a class="forgotpassword" href="#">Forgot Password</a>
+            <div class="lock">
+            <i class="fa fa-lock" aria-hidden="true"></i>
+        </div>
+        <div class="Remember">
+            <input type="checkbox">
+            <h4>Remember me</h4> 
+        </div>
+        <div class="Login">
+            <button onclick="login()" id="btn">LOGIN</button>  
+        </div>      
+        </table>
+    </div>
+    <div class="contact">
+    <i class="fa fa-user-circle" aria-hidden="true"></i>  
+</div>
+</body>
+</html>
